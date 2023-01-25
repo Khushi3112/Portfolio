@@ -1,0 +1,74 @@
+/* #95BCCC -- thoda dark lightblue
+#FCDCDC --light brownish
+#2B4C59 --background wala
+#988080 --chota backgroung wala
+#BECEDA --lightblue*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav-bar{
+    background-color: #988080;
+    width: 227px;
+    /* z-index: 1; */
+}
+
+.nav-bar nav{
+    padding: 45px;
+}
+
+.nav-bar nav li{
+    list-style: none;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.nav-bar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    background-color: #2B4C59;
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.projectTiles{
+    display: flex;
+    justify-content: center;
+}
+
+.projectTiles button{
+    margin-right: 40px;
+    height: 150px;
+    width: 132px;
+    font-size: 70px;
+    border: 0px solid #95BCCC ;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.projectTiles button:hover{
+    box-shadow: 0 4px 8px 0 #BECEDA;    
+}
+
+.projectTiles button a{
+    text-decoration: none;
+    color: #988080;
+}
+
+p {
+    font-size: 20px;
+    color: #BECEDA;
+}

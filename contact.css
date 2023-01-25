@@ -1,0 +1,117 @@
+/* #95BCCC -- thoda dark lightblue
+#FCDCDC --light brownish
+#2B4C59 --background wala
+#988080 --chota backgroung wala
+#BECEDA --lightblue*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.nav-bar{
+    background-color: #988080;
+    width: 227px;
+    /* z-index: 1; */
+}
+
+.nav-bar nav{
+    padding: 45px;
+}
+
+.nav-bar nav li{
+    list-style: none;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.nav-bar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    background-color: #2B4C59;
+    width: 90vw;
+    height: 100vh;
+    /* padding: 150px; */
+}
+
+.container{
+    display: flex;
+}
+
+.info-container{
+    background-color: #988080;
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+
+
+.logos1{
+    display: flex;
+    justify-content: center;
+}
+
+.logos1 button{
+    height: 150px;
+    width: 132px;
+    font-size: 70px;
+    border: 0px solid #95BCCC ;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logos1 button:hover{
+    box-shadow: 0 4px 8px 0 #BECEDA;    
+}
+
+.logos1 button a{
+    text-decoration: none;
+    color: #988080;
+}
+
+.logos2{
+    display: flex;
+    justify-content: center;
+}
+
+.logos2 button{
+    height: 150px;
+    width: 132px;
+    font-size: 70px;
+    border: 0px solid #95BCCC ;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.logos2 button:hover{
+    box-shadow: 0 4px 8px 0 #BECEDA;    
+}
+
+.logos2 button a{
+    text-decoration: none;
+    color: #988080;
+}
+
+
+
+
+
+
+
+
+
+
